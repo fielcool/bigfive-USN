@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:16
 
 #RUN apk add make nasm autoconf automake libtool dpkg pkgconfig libpng libpng-dev g++
 
