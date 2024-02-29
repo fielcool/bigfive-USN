@@ -1,16 +1,20 @@
-FROM node:16-alpine3.14
+FROM node:14
 
-RUN apk add make nasm autoconf automake libtool dpkg pkgconfig libpng libpng-dev g++
+#RUN apk add make nasm autoconf automake libtool dpkg pkgconfig libpng libpng-dev g++
 
-WORKDIR /app
+WORKDIR /home/node/app
 
 COPY . .
 
-RUN yarn setup
+ARG MONGODB_COLLECTION
+ARG MONGODB_URL
+ENV MONGODB_COLLECTION=${MONGODB_COLLECTION}
+ENV MONGODB_URL=${MONGODB_URL}
 
+RUN yarn setup
 
 RUN yarn build
 
 EXPOSE 3000
 
-CMD [ "yarn", "dev" ]
+CMD [ "yarn", "start" ]
