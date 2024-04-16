@@ -1,5 +1,5 @@
 {
-  "name": "bigfive-web",
+  "name": "bigfive-usn",
   "version": "3.0.2",
   "engines": {
     "node": "16.x"
@@ -37,6 +37,7 @@
     "esm": "^3.2.25",
     "imagemin-mozjpeg": "9.0.0",
     "imagemin-pngquant": "9.0.1",
+    "node": "16.16.0",
     "nuxt": "2.15.2",
     "nuxt-amplitude": "0.1.2",
     "nuxt-i18n": "6.20.2",
@@ -45,7 +46,7 @@
     "vue-amplitude": "1.0.3",
     "vue-apexcharts": "1.6.0",
     "vue-confetti": "2.2.1",
-    "vue-template-compiler": "2.6.12"
+    "vue-template-compiler": "^2.6.12"
   },
   "devDependencies": {
     "@mdi/js": "5.9.55",
