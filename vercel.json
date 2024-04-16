@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "scope": "rubynor",
-  "alias": ["bigfive-test.com"],
+  "scope": "phil-usn",
+  "alias": ["https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/"],
   "env": {
     "MONGODB_URI": "@mongodb_uri",
     "MONGODB_COLLECTION": "results",
-    "BASE_URL": "https://bigfive-test.com"
+    "BASE_URL": "https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/"
   },
   "builds": [
     {

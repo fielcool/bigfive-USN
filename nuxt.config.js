@@ -253,7 +253,7 @@ export default {
   axios: {
   },
   sitemap: {
-    hostname: 'https://bigfive-test.com'
+    hostname: 'https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/'
   },
   webfontloader: {
     google: {
@@ -290,7 +290,7 @@ export default {
     }
   },
   env: {
-    API_URL: 'https://bigfive-test.com/api/' // TODO: Fix for dev environment
+    API_URL: 'https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/api/' // TODO: Fix for dev environment
   },
   build: {
     extractCSS: true,
