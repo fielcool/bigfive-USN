@@ -290,7 +290,7 @@ export default {
     }
   },
   env: {
-    API_URL: 'https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/api/' // TODO: Fix for dev environment
+    API_URL: 'https://usn-bigfive.onrender.com/api/' // TODO: Fix for dev environment
   },
   build: {
     extractCSS: true,
