@@ -217,7 +217,7 @@ export default {
           }
         ],
         seo: true,
-        baseUrl: 'https://bigfive-test.com',
+        baseUrl: 'https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/',
         defaultLocale: 'en',
         strategy: 'prefix_except_default',
         lazy: true,
