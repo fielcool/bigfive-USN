@@ -217,7 +217,7 @@ export default {
           }
         ],
         seo: true,
-        baseUrl: 'https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/',
+        baseUrl: 'https://usn-bigfive.onrender.com/',
         defaultLocale: 'en',
         strategy: 'prefix_except_default',
         lazy: true,
@@ -253,7 +253,7 @@ export default {
   axios: {
   },
   sitemap: {
-    hostname: 'https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/'
+    hostname: 'https://usn-bigfive.onrender.com/'
   },
   webfontloader: {
     google: {

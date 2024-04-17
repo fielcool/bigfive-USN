@@ -1,11 +1,11 @@
 {
   "version": 2,
   "scope": "phil-usn",
-  "alias": ["https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/"],
+  "alias": ["https://usn-bigfive.onrender.com/"],
   "env": {
     "MONGODB_URI": "@mongodb_uri",
     "MONGODB_COLLECTION": "results",
-    "BASE_URL": "https://us-nbigfive-cwz2n6p1c-phil-usn.vercel.app/"
+    "BASE_URL": "https://usn-bigfive.onrender.com/"
   },
   "builds": [
     {
